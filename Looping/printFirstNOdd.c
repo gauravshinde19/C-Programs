@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void PrintEven(int iNo)
+void PrintOdd(int iNo)
 {
     int iCnt = 0;
 
@@ -28,7 +28,7 @@ int main()
     printf("Enter number : \n");
     scanf("%d", &iValue);
 
-    PrintEven(iValue);
+    PrintOdd(iValue);
 
     return 0;
 }
