@@ -9,7 +9,7 @@ int CreateFile(char *fname)
 {
     int iRet = 0;
 
-    iRet = fcreat(fname, 0777); // (Name of the file, Permission)
+    iRet = creat(fname, 0777); // (Name of the file, Permission)
 
     return iRet;
 }
