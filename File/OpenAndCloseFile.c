@@ -1,4 +1,4 @@
-// Program to open file
+// Program to open the file and close that file
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -33,7 +33,7 @@ int main()
         printf("File gets opened successfully with fd %d\n", fd);
     }
 
-    close(fd);
+    close(fd);  // (File Discriptor)
 
     return 0;
 }
