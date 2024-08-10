@@ -9,7 +9,7 @@ int OpenFile(char *fname)
 {
     int iRet = 0;
 
-    iRet = open(fname, O_RDWR); // (Name of the file, Mode) and it returns file descriptor
+    iRet = open(fname, O_RDWR); // (Name of the file, Mode)
 
     return iRet;
 }
